@@ -58,3 +58,63 @@ h1.site-title span {
   stroke: #000;
   stroke-width: 2;
 }
+
+/*______________________________*/
+
+/*pozicování*/
+.color-option__box button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.product__colors {
+  margin-left: 50px;
+}
+
+.choose-colors {
+  display: flex;
+}
+
+.product.container {
+  display: flex;
+}
+
+.color-option {
+  flex-basis: 25%;
+}
+
+.btn_done {
+  margin: 30px 0 20px 100px;
+}
+
+.color-option {
+  margin: 3px;
+}
+
+/*stylování*/
+p {
+  font-size: 14px;
+}
+
+.btn_done button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 10px 50px;
+  background-color: transparent;
+  color: white;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+.color-option__box button {
+  border: none;
+}
+#cerna {
+  background-color: black;
+}
+#cervena {
+  background-color: firebrick;
+}
+#modra {
+  background-color: skyblue;
+}
